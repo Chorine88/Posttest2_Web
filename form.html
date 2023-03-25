@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Pendaftaran</title>
+</head>
+<body>
+    <nav>
+        <a href="http://si.ft.unmul.ac.id/"><img class="t" src="logo.png" width="4%"></a>
+        <a href="index.html">Beranda</a>
+        <a href="about.html">About</a>
+        <a href="#">Form</a>
+        <a href="data.html">Data</a>
+    </nav>
+
+    <h1>Ini halaman Pendaftaran</h1>
+
+    <div class="penjelasan">
+        <div class="kotak">
+
+    <form id="form">
+        <label for="nama">Nama :</label>
+        <br>
+        <input type="text" placeholder="Masukan Nama" name="nama" id="nama">
+        <br>
+        <br>
+
+        <label for="nim">NIM :</label>
+        <br>
+        <input type="text" placeholder="Masukan NIM" name="nim" id="nim">
+        <br>
+        <br>
+
+        <label for="email">Email :</label>
+        <br>
+        <input type="email" placeholder="Masukan Email Anda" name="email" id="email">
+        <br>
+        <br>
+
+        <label for="kelamin" id="kelamin" name="kelamin">Jenis Kelamin :</label>
+        <div class="pilihan">
+        <br>
+        <input type="radio" name="pilih" id="laki-laki" value="laki-laki" checked>  
+        <label style="padding-right: 20px;" for="laki-laki">Laki-laki</label> 
+        <input type="radio" name="pilih" id="perempuan" value="perempuan" checked>
+        <label style="padding-right: 20px;" for="perempuan">Perempuan</label>
+        </div>
+
+
+        <!-- <input type="radio" name="kelas" id="a">
+        <label style="padding-right: 20px;" for="a">A</label> 
+        <input type="radio" name="kelas" id="b">
+        <label style="padding-right: 20px;" for="b">B</label>
+        <input type="radio" name="kelas" id="c">
+        <label style="padding-right: 20px;" for="c">C</label> -->
+        <br>
+        <br>
+
+        <label for="matkul" class="sub-matkul">Mata Kuliah Favorit :</label>
+        <br>
+        <input type="checkbox" name="web" id="web">
+        <label for="web" class="matkul">Pemograman Web</label> 
+        <br>
+        <input type="checkbox" name="mining" id="mining">
+        <label for="mining" class="matkul">Data Mining</label> 
+        <br>
+        <input type="checkbox" name="desain" id="desain">
+        <label for="desain" class="matkul">Desain UI/UX</label> 
+        <br>
+        <br>
+
+        <label for="angkatan">Angkatan :</label>
+        <select id="angkatan" name="angkatan">
+            <option value="2020">2020</option>
+            <option value="2021">2021</option>
+            <option value="2022">2022</option>
+        </select>
+        <br>
+        <br>
+
+        Saran :
+        <br>
+        <textarea
+        name="kritik" 
+        id="kritik" 
+        cols="55" 
+        rows="7" 
+        placeholder="Masukan Saran Anda">
+        </textarea>
+        <br>
+        <br>
+
+        <center>
+        <button class= "red" type="submit" id="batal">Batal</button>
+        <button class= "red" type="submit" id="daftarr">Daftar</button>
+        </center>
+
+    </form>
+</div>
+</div>
+
+<footer>
+    <p><span> Chorine Jessica Utama</span></p>
+    <p class="f">2109116061</p>
+    <p class="f">SI B 2021</p>
+</footer>
+
+</body>
+    <script src="form.js"></script>
+</html>
